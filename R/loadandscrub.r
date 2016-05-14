@@ -27,7 +27,8 @@
 require(data.table)
 require(sqldf)
 
-## URIs of data files
+## URIs of data files...assumes you have a subdirectory called 'data' set up
+## please do not add data files ot the GitHub
 destf = "data/destinations.csv"
 sampsubf = "data/sample_submission.csv"
 testf = "data/test.csv"
